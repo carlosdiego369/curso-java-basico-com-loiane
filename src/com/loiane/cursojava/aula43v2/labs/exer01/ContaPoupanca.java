@@ -2,7 +2,7 @@ package com.loiane.cursojava.aula43v2.labs.exer01;
 
 import java.util.Calendar;
 
-public class ContaPoupança extends ContaBancaria {
+public class ContaPoupanca extends ContaBancaria {
 	
 	private int diaRendimento;
 
@@ -16,7 +16,7 @@ public class ContaPoupança extends ContaBancaria {
 
 	@Override
 	public String toString() {
-		String s = "ContaPoupança [diaRendimento=" + diaRendimento + "]";
+		String s = "ContaPoupanï¿½a [diaRendimento=" + diaRendimento + "]";
 		s += super.toString();
 		return s;
 	}

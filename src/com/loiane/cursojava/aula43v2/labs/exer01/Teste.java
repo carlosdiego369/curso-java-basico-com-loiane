@@ -19,9 +19,9 @@ public class Teste {
 
 		
 		
-		imprimir("*** Teste ContaPoupança ***");
+		imprimir("*** Teste ContaPoupanï¿½a ***");
 
-		ContaPoupança contaPoupanca = new ContaPoupança();
+		ContaPoupanca contaPoupanca = new ContaPoupanca();
 		contaPoupanca.setNomeCliente("Danielle Sousa Rodrigues");
 		contaPoupanca.setNumConta("38445-8");
 		contaPoupanca.setDiaRendimento(15);
@@ -33,9 +33,9 @@ public class Teste {
 		realizarSaque(contaPoupanca, 70);
 		
 		if(contaPoupanca.calcularNovoSaldo(0.03)) {
-			imprimir("Rendimento aplicado, novo saldo é de = " + contaPoupanca.getSaldo());
+			imprimir("Rendimento aplicado, novo saldo ï¿½ de = " + contaPoupanca.getSaldo());
 		}else {
-			imprimir("Hoje não e dia de rendimento, novo aldo não calculado");
+			imprimir("Hoje nï¿½o e dia de rendimento, novo aldo nï¿½o calculado");
 		}
 		imprimirSaldo(contaPoupanca);
 		
@@ -57,9 +57,9 @@ public class Teste {
 		realizarSaque(contaEspecial, 80);
 		
 		if(contaPoupanca.calcularNovoSaldo(0.03)) {
-			imprimir("Rendimento aplicado, novo saldo é de = " + contaPoupanca.getSaldo());
+			imprimir("Rendimento aplicado, novo saldo ï¿½ de = " + contaPoupanca.getSaldo());
 		}else {
-			imprimir("Hoje não e dia de rendimento, novo aldo não calculado");
+			imprimir("Hoje nï¿½o e dia de rendimento, novo aldo nï¿½o calculado");
 		}
 		imprimirSaldo(contaPoupanca);
 
