@@ -7,15 +7,18 @@ public class ContadorService {
 		ContadorController.imprimirValor();
 		ContadorController.acrementarValor();
 		ContadorController.imprimirValor();
-		ContadorController.zerarValor();
-		ContadorController.imprimirValor();
-		ContadorController.acrementarValor();
-		ContadorController.acrementarValor();
-		ContadorController.acrementarValor();
+		ContadorController.decrementarValor();
 		ContadorController.imprimirValor();
 		ContadorController.zerarValor();
 		ContadorController.imprimirValor();
-
+		ContadorController.acrementarValor();
+		ContadorController.acrementarValor();
+		ContadorController.acrementarValor();
+		ContadorController.imprimirValor();
+		ContadorController.zerarValor();
+		ContadorController.imprimirValor();
+		ContadorController.decrementarValor();
+		ContadorController.imprimirValor();
 	}
 
 }

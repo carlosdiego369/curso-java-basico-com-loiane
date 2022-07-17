@@ -25,4 +25,23 @@ public class CalculadoraController {
 	public static void imprimirTela(int num) {
 		System.out.println(num);
 	}
+
+	public static int fatorial(int num) {
+		
+		if (num == 0) {
+			return 1;
+		}
+		int total = 1;
+		for (int i = num; i>1; i--) {
+			total *= i;
+		}
+
+		imprimirTela(total);
+		return total;
+
+	}
+
+	public static void imprimir(String texto) {
+		System.out.println(texto);
+	}
 }
