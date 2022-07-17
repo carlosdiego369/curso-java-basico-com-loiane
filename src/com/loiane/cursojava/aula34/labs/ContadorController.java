@@ -2,7 +2,7 @@ package com.loiane.cursojava.aula34.labs;
 
 public class ContadorController {
 	
-	static int cont;
+	private static int cont;
 	
 	public static int acrementarValor() {
 		return cont++;
